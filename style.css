@@ -1,11 +1,20 @@
-body{
-	/*background-image: url("file:///Users/Parker/Documents/Development/BillGatesQuestion/gates.jpeg"); */
-	background-image: url("https://thenypost.files.wordpress.com/2013/10/gates.jpg"); 
-
+html{
+	min-height: 100%;
+	position: relative;
 }
 
-h1{
-	color: white;
-	font-size: 56px;
+body{
+	/*background-image: url("file:///Users/Parker/Documents/Development/BillGatesQuestion/gates.jpeg"); */
+	background-image: url("gates.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+header{
+		color: white;
+	font-size: 56px;
+}
+
+.row{
+	padding-left: 50px;
 }
