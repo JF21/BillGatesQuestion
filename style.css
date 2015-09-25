@@ -1,4 +1,11 @@
 body{
-	/*background-image: url("/Users/Parker/Documents/Development/BillGatesQuestion/gates.jpeg"); */
-	background-image: url("https://thenypost.files.wordpress.com/2013/10/gates.jpg");
+	/*background-image: url("file:///Users/Parker/Documents/Development/BillGatesQuestion/gates.jpeg"); */
+	background-image: url("https://thenypost.files.wordpress.com/2013/10/gates.jpg"); 
+
+}
+
+h1{
+	color: white;
+	font-size: 56px;
+
 }
