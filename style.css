@@ -10,13 +10,49 @@ body{
 	background-repeat: no-repeat;
 }
 
-header{
+header h1{
 	color: white;
-	font-size: 56px;
+	font-size: 30px;
 	padding-left: 25px;
 	padding-bottom: 15px;
 }
 
 .row{
 	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.origins {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+
+  top: 0px;  /* start off behind the scenes */
+  width: 100%;
+  position: fixed;
+  height: auto;
+  overflow:auto;
+  padding-left: 20px;
+  vertical-align: center;
+}
+
+.origins h1{
+	color: white;
+	font-family: "calibri";
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+p.description{
+	text-indent: 2.0em;
+	font-family: "calibri";
+  	color: #45A4AF;;
+  	font-size: 30px;
+  	letter-spacing: 2px;
+}
+
+.exit{
+	color:white;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
 }
